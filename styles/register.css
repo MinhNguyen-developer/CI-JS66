@@ -1,0 +1,10 @@
+.register-card-container {
+  width: 250px;
+}
+
+.register-title {
+  font-family: "Raleway";
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+}

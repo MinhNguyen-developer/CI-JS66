@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: gray;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            /* row, row-reverse, column, column-reverse */
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .item {
+            background-color: green;
+            color: white;
+            border: 1px solid black;
+            width: 200px;
+            height: 50px;
+        }
+
+        .item-1 {
+            flex-basis: 100px;
+            flex-grow: 1;
+            flex-shrink: 1;
+        }
+
+        .item-2 {
+            flex-grow: 2;
+            flex-shrink: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <div class="container">
+            <div class="item container">
+                <div>1.1</div>
+                <div>1.2</div>
+            </div>
+            <div class="item item-1">2</div>
+            <div class="item">3</div>
+        </div>
+    </div>
+</body>
+<script>
+    // Calculate sum of 1 & 2
+    function sum(a, b) {
+        return a + b
+    }
+    const alice = {
+        id: 1,
+        name: "Alice",
+        tags: ['good', 'perfect']
+    }
+
+    const arr = [2, 3, 5, 4, 1, 6, 7]
+    const arr2 = [1, 2, 3, 4, 5, 6, 7]
+
+    // find index of 5
+</script>
+
+</html>
